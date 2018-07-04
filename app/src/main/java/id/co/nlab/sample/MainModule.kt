@@ -19,6 +19,7 @@ class MainModule constructor(context: Context,view:ViewState) :Module(context,vi
 
     override fun onSuccess() {
         network.networkConfiguration(tagSuccess)
+
         network.success("","Success")
     }
 

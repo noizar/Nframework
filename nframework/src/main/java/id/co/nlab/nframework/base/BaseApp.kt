@@ -12,6 +12,10 @@ interface ViewState{
      fun setupView()
 }
 
+interface DialogViewState{
+    fun onSendData(data:Any?,tag:String)
+}
+
 class Network(view:ViewState){
    private sealed class NetworkState{
         class CreateState:NetworkState()

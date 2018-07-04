@@ -2,6 +2,7 @@ package id.co.nlab.sample
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
 import id.co.nlab.nframework.validation.Validation
 import id.co.nlab.nframework.validation.ValidationDelegate
 import kotlinx.android.synthetic.main.activity_validation.*
@@ -28,6 +29,5 @@ class SampleValidation :AppCompatActivity(),ValidationDelegate {
     }
 
     override fun validationSuccess(data: HashMap<String, String>) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 }

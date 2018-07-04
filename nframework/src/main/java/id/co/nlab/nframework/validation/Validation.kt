@@ -84,12 +84,20 @@ class Validation constructor(var delegate: ValidationDelegate) {
             }
 
         }
+
+        finisValidate()
     }
 
     private fun startValidate(){
         errorCount = 0
         data.clear()
         error.clear()
+    }
+
+    private fun finisValidate(){
+        when (errorCount){
+            0 -> delegate.validationSuccess(data)
+        }
     }
 
 

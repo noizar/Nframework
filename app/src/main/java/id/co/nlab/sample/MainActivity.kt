@@ -36,9 +36,6 @@ class MainActivity : AppCompatActivity(),ViewState {
     }
 
     override fun setupView() {
-        success.setOnClickListener { module.onSuccess() }
-        loading.setOnClickListener { module.onLoading() }
-        failure.setOnClickListener { module.onFailure() }
-        update.setOnClickListener { module.onUpdate() }
+
     }
 }
