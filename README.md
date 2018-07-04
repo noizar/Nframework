@@ -18,7 +18,7 @@ allprojects {
 ```
 ```
 dependencies {
-   implementation 'com.github.noizar:Nframework:0.1'
+   implementation 'com.github.noizar:Nframework:0.2'
 }
 ```
 
