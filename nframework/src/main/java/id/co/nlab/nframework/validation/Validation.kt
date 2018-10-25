@@ -41,7 +41,7 @@ class Validation constructor(var delegate: ValidationDelegate) {
                 registerFieldData.add(ValidationType1(editText,LengthRule(editText,minLength,maxLength),
                         message,key))
 
-        fun lenghtRule(editText: EditText,inputText:TextInputLayout,minLength: Int,maxLength: Int,message: String,key: String) =
+        fun lengthRule(editText: EditText,inputText:TextInputLayout,minLength: Int,maxLength: Int,message: String,key: String) =
                 registerFieldData.add(ValidationType2(editText,inputText,LengthRule(editText,minLength,maxLength),
                         message,key))
 
